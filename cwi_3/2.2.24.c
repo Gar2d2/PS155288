@@ -23,7 +23,7 @@ int main ()
     {
         printf("Podaj nieujemną liczbę całkowitą:__\b\b");
         
-    } while (scanf("%i", &n) && n<0); // nie wiem czy nie nadużywam dobrodziejstw && prosiłbym o feedback
-    printf("%i", sequence(n));               // ale przy okazji sprawdzi czy nie ma EOF 
+    } while (scanf("%i", &n) && n<0); 
+    printf("%i", sequence(n));                
     
 }
