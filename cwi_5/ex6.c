@@ -9,8 +9,7 @@ int main()
     p1 = &m;
     p2 = &n;
     o = *p1+*p2;
-    //p3 = p1-p2; //p1 =0x61fe04 , *p1 = 5 <-- błąd kompilacji srodowisko vscode 
-    //pomimo błędu kompilacji pozwoliłem sobie wykomentować i wpisać poprzednie wartości gdyż dana linijka ich nie modyfikuje
+    p3 = (int *)(p1-p2); //p1 =0x61fe04 , *p1 = 5 <-- błąd kompilacji srodowisko vscode, potrzebne rzutowanie
     p1++;
     p2--; //p2 = 0x61fdfc, *p2 = 0
     return 0;
