@@ -98,8 +98,8 @@ void sortdsc(const int n, int* arr)
 
 int main()
 {
-    int arr1[9] = {8,5,4,3,2,6,9,7,1};
-    sortasc(9, arr1);
+    int arr1[9] = {9,5,4,3,2,6,9,7,1};
+    sortdsc(9, arr1);
     
     return 0;
 }

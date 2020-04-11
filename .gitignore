@@ -3,3 +3,4 @@ env/*
 .vscode
 .vscode/*
 auto_git.py
+*.md
