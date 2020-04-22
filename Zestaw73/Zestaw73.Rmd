@@ -1,0 +1,57 @@
+---
+title: "Zestaw 73"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug73 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 7 pkt.*
+
+2. W folderze Popraw73 znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując dokładnie 1 linijkę tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu. Do zmodyfikowanych linii zaliczają się zarówno linie istotne ze względu na kompilację jak i te nieistotne (np. dodanie spacji przed operatorem może być operacją nieistotną ze względu na kompilację, ale będzie liczone jako zmodyfikowana linijka).
+
+*Punktacja: 7 pkt.*
+
+3. Napisz funkcję, której parametrami są trzy dodatnie liczby całkowite $n$, $m$ i $k$. Funkcja ma zwrócić iloczyn liczb wielokrotności $n$ większych niż $k$ i mniejszych niż $m$. Stwórz dwa przypadki testowe dla funkcji. 
+
+
+*Punktacja: 8 pkt.*
+
+4. Napisz bezargumentową funkcję, która rezerwuje blok dwóch zmiennych typu `double`. Funkcja ma ustawić kolejno w pamięci wartości 3.4 i -2.8. Na koniec funkcja powinna zwrócić wskaźnik na początek bloku. Stwórz przypadek testowy w `main` tak, aby wyświetlić na konsoli wartości zmiennych przechowywanych na bloku stworzonym wewnątrz funkcji.
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję rekurencyjną, która dla otrzymanej w argumencie nieujemnej liczby całkowitej $n$ zwraca
+wartość elementu o indeksie $n$ ciągu zdefiniowanego w następujący sposób
+
+$$a_0=a_1=1$$
+$$a_{3n}=a_{n-1}, n>0$$
+$$a_{3n+1}=a_{3n}+1,n>0$$
+$$a_{3n+2}=n, n\geqslant 0$$
+Stwórz dwa przypadki testowe dla funkcji.
+
+Przypadki testowe:
+
+| $n$ | $a_n$ |
+|---|---|
+| 2 | 0 |
+| 3 | 1 |
+| 4 | 2 |
+| 5 | 1 |
+
+*Punktacja: 10 pkt.*
+
+6. Napisz funkcję, która otrzymuje trzy argumenty: dodatnią liczbę całkowitą $k$ oraz dwie $k$-elementowe tablicę `tab1` i `tab2` o elementach typu `int`. Funkcja ma zwrócić liczbę indeksów na których w odpowiednich miejscach w tablicy stoją różne wartości. Stwórz dwa przypadki testowe.
+
+Przykład: 
+
+Tablica 1 ma kolejno elementy: 2,4,-2,3,5.
+
+Tablica 2 ma kolejno elementy: 2,0,-2,3,1.
+
+W obu tablicach na miejscach o indeksie 1 i 4 są różne wartości. Wtedy funkcja powinna zwrócić 2.
+
+*Punktacja: 10 pkt.*
