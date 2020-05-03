@@ -10,14 +10,12 @@ int reku(int n)
     }
     if(n>0)
     {
-        if(n%3 == 0)
+        if(n/3 == 0)
         {
             return reku(n-1);
         }
-        if(n%3 ==1)
-        {
-            return reku(n-1 ) +1;
-        }
+        int k = n/3;
+        return reku(n-1)+k;
     }
     return n;
 
@@ -25,5 +23,5 @@ int reku(int n)
 
 int main()
 {
-    printf("%d", reku(2));
+    printf("%d", reku(5));
 }
