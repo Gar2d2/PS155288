@@ -1,0 +1,36 @@
+---
+title: "Zestaw A - próbny"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze DebugA znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linkjek i instrukcji poza komentarzami będzie powodowało 0 pkt.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, która otrzymuje trzy napisy i dopisuje pierwszy na koniec drugiego, a drugi na koniec trzeciego. Zakładamy, że wynikowy napis zmieści się w pamięć zarezerwowanej dla tablicy przechowującej odpowiednie napisy. Stwórz jeden przypadek testowy dla funkcji.
+
+*Punktacja: 9 pkt.*
+
+3. . Napisz funkcję, która porównuje dwie listy z głową o elementach typu:
+
+```c
+struct element {
+    char x;
+    struct element * next;
+};
+```
+i zwraca 1 jeżeli obie listy są równe (odpowiadające sobie elementy mają te same wartości pola x) oraz 0 w przeciwnym razie. Stwórz jeden przypadek testowy.
+
+*Punktacja: 12 pkt.*
+
+4. Zdefiniuj strukturę o nazwie `planeta`, posiadająca: numer planety (liczba całkowita), nazwa planety (napis 50-literowy), promień planety (liczba zmiennoprzecinkowa). Napisz funkcje przyjmującą tablicę planet oraz jej rozmiar. Funkcja ma zwrócić planetę (cała strukturę) o największej objętości ($V=\frac{4}{3} \pi r^3$). Stwórz jeden przypadek testowy dla funkcji. Wsk.: przyjmij za $\pi$ liczbę $3,14$.
+
+*Punktacja: 10 pkt.*
+
+5. Napisz funkcję, która przyjmie jako argumenty dwuwymiarową tablicę tablic liczb zmiennoprzecinkowych oraz jej rozmiary $n$ i $m$. Funkcja ma zwrócić 1, jeśli na brzegach (tzn. w pierwszym i ostatnim wierszu oraz w pierwszej i ostatniej kolumnie) tablicy występują wartości niezerowe; w przeciwnym razie funkcja ma zwrócić 0.
+
+*Punktacja: 12 pkt.*
