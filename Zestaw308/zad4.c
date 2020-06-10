@@ -13,5 +13,10 @@ int main()
    
     
 
-    printf("%c", test[0].r);
+    printf("%c\n", test[0].r);
+    printf("%f\n", test[1].t);
+    printf("%c\n", test[2].r);
+    printf("%f\n", test[3].t);
+    printf("%c\n", test[4].r);
+    printf("%f\n", test[5].t);
 }
