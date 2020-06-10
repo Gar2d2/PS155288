@@ -1,0 +1,50 @@
+---
+title: "Zestaw 308"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug308 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt. Adresy muszą obowiązkowo być w systemie szesnastkowym.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, której argumentem jest napis. Funkcja ma zadanie usunąć znaki z napisu o nieparzystych indeksach. Stwórz przypadek testowy.
+
+*Punktacja: 8 pkt.*
+
+Przykład: dla napisu `abc123` ma pozostać `ac2`.
+
+3. Napisz funkcję, której argumentem jest dwuwymiarowa tablica tablic i jej wymiary $n$ i $m$. Funkcja ma zwrócić sumę kwadratów elementów znajdujących się we wierszu o indeksie 0. Stwórz przypadek testowy.
+
+Przykład: dla poniższej tablicy ma wyjść: $2^3+3^2+(-2)^2+8^2 =...$
+
+| | | | |
+|---|---|---|---|
+| 2 | 3| -2 | 8 |
+| -1 | 8 | -4 | 3|
+| 3| 5| -2 | -9 |
+
+
+*Punktacja: 12 pkt.*
+
+4. Stwórz unię `Test` przechowującą dwa pola: `r` typu `char` i `t` typu `float`. Stwórz program zawierający tablicę 6 elementów typu `Test`. Wypisz na konsoli zawartość tablicy.
+
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję, która przyjmuje jako argument listę z głową o elementach typu:
+
+```c
+struct element {
+    int a;
+    struct element * next;
+};
+```
+
+Funkcja ma potroić każdy element znajdujący się na liście (pomnożyć pole `a` razy trzy) o ile poprzedni element jest dodatni. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 15 pkt.*
